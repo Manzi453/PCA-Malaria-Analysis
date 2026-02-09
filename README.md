@@ -24,18 +24,6 @@ This PCA implementation follows the traditional linear algebra workflow, without
 Data Standardization
 Normalize features so that each has mean 0 and standard deviation 1, using:
 
-𝑧
-=
-𝑥
-−
-𝜇
-𝜎
-z=
-σ
-x−μ
-	​
-
-
 This step ensures that features with different scales contribute equally to PCA.
 
 Covariance Matrix Calculation
@@ -75,3 +63,4 @@ NumPy – matrix operations, covariance, eigenvalues/eigenvectors
 Pandas – data loading, cleaning, and preprocessing
 
 Matplotlib – visualization of original and PCA-transformed data
+https://colab.research.google.com/drive/1z4l1hw5QAp0gn-ugk6CWjd165vGJ250R?usp=sharing
